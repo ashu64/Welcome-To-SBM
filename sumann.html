@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Welcome To SBM</title>
+    <style>
+        body
+	{
+		margin-top:5px;
+		margin-left:0px;
+		margin-right:0px;
+		min-width:1100px;
+	}
+#wrap
+	{
+		min-width:1100px;
+		margin-right:0px;
+	}
+#top
+	{
+		padding:0px;
+		margin:0px;
+	}
+#top a
+	{
+		text-decoration:none;
+		background-color:white;
+		margin-left:10px;
+	}
+#nav
+	{
+		overflow:visible;
+		width:100%;
+		min-width:1100px;
+		background-color:#3399ff;
+		margin-top:5px;
+		margin-left:0px;
+		margin-right:0px;
+		position:absolute;
+	}
+#nav_bar
+	{
+		float:left;
+		position:absolute;
+		margin-left:60px;
+		margin-top:0px;
+	}
+#nav_bar ul
+	{
+		margin:0px;
+		margin-bottom:2px;
+		padding:0px;
+	}
+#nav_bar li
+	{
+		list-style-type:none;
+		padding: 2px 0px 2px 0px;
+		display:inline-block;
+		margin-right:20px;
+		font-size:20px;
+		background-color:none;
+	}
+#nav_bar li ul
+	{
+		display:none;
+	}
+#nav_bar li a:link,a:visited
+	{
+		background-color:#3399ff;
+	}
+#nav_bar li a:hover,a:active
+	{
+		background-color:WHITE;
+		color:#3399ff;
+	}
+#nav_bar li:hover ul
+	{
+		background-color:WHITE;
+		display:block;
+		border-radius:5px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border:1px solid #3399ff;
+		border-top:2px solid #3399ff;
+		position:absolute;
+		z-index:1;
+	}
+#nav_bar li:hover li
+	{
+		display:list-item;
+		list-style-type:none;
+		padding-top:3px;
+		padding-left:5px;
+		padding-bottom:3px;
+	}
+#nav_bar li:hover li a
+	{
+		color:#3399ff;
+		background-color:WHITE;
+	}
+#nav_bar li:hover li a:link,a:visited
+	{
+		color:#3399ff;
+	}
+#nav_bar li:hover li a:hover,a:active
+	{
+		color:WHITE;
+		background-color:#3399ff;
+	}
+#nav_bar a:link,a:visited
+	{
+		color:WHITE;
+		text-decoration:none;
+	}
+#nav_bar a:hover,a:active
+	{
+		color:#3399ff;
+		border-radius:3px;
+		background-color:WHITE;
+	}
+#general_info
+	{
+		float:right;
+		margin-right:30px;
+		margin-top:0px;
+		word-spacing:0px;
+	}
+#general_info ul
+	{
+		margin:0px;
+		padding:0px;
+	}
+#general_info li
+	{
+		list-style-type:none;
+		display:inline-block;
+		font-size:20px;
+		color:WHITE;
+		padding: 2px 10px 2px 10px;
+	}
+#general_info a:link,a:visited
+	{
+		color:WHITE;
+		text-decoration:none;
+	}
+#general_info a:hover,a:active
+	{
+		color:#3399ff;
+		border-radius:3px;
+		background-color:WHITE;
+	}
+#footer
+	{
+		text-align:center;
+		font-size:15px;
+		float:bottom;
+	}
+#footer hr
+	{
+		vertical-align:bottom;
+		border:0px;
+		margin-top:37px;
+		margin-bottom:3px;
+		color:#3399ff;
+		height:2.5px;
+		background-color:#3399ff;
+		width:95%;
+	}
+    </style>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/nav_logo.css">
+	<script type="text/javascript" src="js/cookies.js"></script>
+</head>
+<body onload="setPrev_page();checkLogin(1);">
+	<div id="wrap">
+		<div id="top">
+			<a href="#"><img src="src/logo.jpg" height="100px" width="500px" style="border:0px; text-decoration:none;"></a>
+			<div id="display_user" style="float:right;">
+				<p id="welcome_user" style="margin-top:85px;margin-right:50px;"></p>
+			</div>
+		</div>
+		<div id="nav">
+			<div id="nav_bar">
+				<ul>
+					<li><a href="#">&nbsp;Home&nbsp;</a></li>
+					<li><a href="#">&nbsp;Service&nbsp;</a>
+						<ul id="sub_menu_services">
+							<li><a href="personal_banking.html">&nbsp;Personal Banking&nbsp;</a></li>
+							<li><a href="corporate_banking.html">&nbsp;Corporate Banking&nbsp;</a></li>
+						</ul>
+					</li>
+					<li><a href="registration.html">&nbsp;Online Account Application&nbsp;</a></li>
+				</ul>
+			</div>
+			<div id="general_info">
+				<ul>
+					<li><a href="faq.html">&nbsp;FAQ&nbsp;</a></li>
+					<li style="color:black;">|</li>
+					<li><a href="customer_care.html">&nbsp;Customer Care&nbsp;</a></li>
+					<li style="color:black;">|</li>
+					<li><a href="about.html">&nbsp;About&nbsp;</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<table id="container_table">
+			<tr>
+				<td>
+					<div id="personal_banking">
+						<table>
+							<tr>
+								<td align="center">Personal Banking</td>
+								<td><img src="src/User_icon.png" width="70px" height="70px"></td>
+							</tr>
+						</table>
+						&nbsp;<br>&nbsp;<br>
+						Our Personal Banking securely allows you to :
+							<ul>
+								<li>Transfer Money</li>
+								<li>Bill Payments  <font size="1" color="red">(coming soon)</font></li>
+								<li>Tax Payments</li>
+								<li>Union Bank Virtual Card</li>
+								<li>Mobile/DTH Recharge  <font size="1" color="red">(coming soon)</font></li>
+								<li>View your Transaction History</li>
+							</ul>
+							<span id="log_btn">
+								<a href="personal_banking.html">Login</a>
+							</span>
+					</div>
+				</td>
+				<td id="corporate_banking_td">
+					<div id="corporate_banking">
+						<table>
+							<tr>
+								<td align="center">Corporate Banking</td>
+								<td><img src="src/corporate_icon.jpg" width="80px" height="80px" alt="Corporate Icon"></td>
+							</tr>
+						</table>
+						&nbsp;<br>&nbsp;<br>
+						Our Corporate Banking allows you to :
+							<ul>
+								<li>Transfer Money</li>
+								<li>Bill Payments  <font size="1" color="red">(coming soon)</font></li>
+								<li>Tax Payments</li>
+								<li>Union Bank Virtual Card</li>
+								<li>Mobile/DTH Recharge  <font size="1" color="red">(coming soon)</font></li>
+								<li>View your Transaction History</li>
+							</ul>
+							<span id="log_btn">
+								<a href="corporate_banking.html">Login</a>
+							</span>
+					</div>
+				</td>
+				<td>
+					<div id="usefull_link">
+						<span><u>Use full links :</u></span>
+						<ul>
+							<li>&#x25b7; Mobile/DTH Recharge</li>
+							<li>&#x25b7; Bill Payments</li>
+							<li>&#x25b7; Tax Payment</li>
+							<li>&#x25b7; Secure Card Transaction</li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer" style="margin-top:10%;">
+		<hr>
+		CopyRight &copy; 2014 USBM.
+	</div>
+</body>
+</html>
